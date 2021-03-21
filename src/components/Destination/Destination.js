@@ -13,9 +13,9 @@ const Destination = () => {
   const [destination, setDestination] = useState({
     pickFrom: "",
     pickTo: "",
-    isReady: false,
+    
   });
-  const { pickFrom, pickTo, isReady } = destination;
+  const { pickFrom, pickTo} = destination;
 
   const handleBlur = (event) => {
     const newDestination = { ...destination };
@@ -34,15 +34,15 @@ const Destination = () => {
     <div className="destination-container">
       <div className="row">
         <div className="search-div col-md-4">
-          {pickFrom && pickTo && isReady ? (
+          {pickFrom && pickTo ? (
             <div>
               <div className="destination-form ml-1 mb-2 bg-primary text-white rounded p-3">
                 <ul>
                   <li>
-                    <h3>{pickFrom}</h3>
+                    <h3>{destination.pickFrom}</h3>
                   </li>
                   <li>
-                    <h3>{pickTo}</h3>
+                    <h3>{destination.pickTo}</h3>
                   </li>
                 </ul>
               </div>
@@ -94,15 +94,7 @@ const Destination = () => {
                 required
                 placeholder="pick to"
               />
-              <label htmlFor="party">
-                <strong>Choose Date</strong>{" "}
-              </label>
-              <input
-                type="date"
-                className="form-control mb-2"
-                name="party"
-                id=""
-              />
+              <
               <input
                 className="search-btn form-control btn btn-primary btn-lg mt-3 mb-2 p-2"
                 type="submit"

@@ -1,0 +1,15 @@
+.rider-div {
+  margin: 16px;
+  padding: 16px;
+  height: 280px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.rider-div img {
+  width: 180px;
+  height: 180px;
+}

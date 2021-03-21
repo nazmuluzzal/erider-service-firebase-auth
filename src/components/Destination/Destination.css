@@ -1,0 +1,17 @@
+.destination-container {
+  margin: 50px 50px;
+}
+.search-div {
+  border-radius: 16px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+destination-form {
+  border-radius: 16px;
+}
+.map-div {
+  padding-left: 30px;
+  margin-top: 30px;
+
+  border-radius: 16px;
+}

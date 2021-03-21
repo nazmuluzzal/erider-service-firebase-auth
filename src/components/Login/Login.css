@@ -1,0 +1,25 @@
+.user-form {
+  display: flex;
+  justify-content: center;
+}
+.form-box {
+  border: 1px solid lightblue;
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightblue;
+  /* align-items: center; */
+  margin-right: 40px;
+}
+
+.signIn-btn {
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.signIn-btn img {
+  width: 25px;
+}

@@ -1,15 +1,14 @@
 # eRider Service Bangladesh
+# Live Site - [eRider Service Bangladesh](https://react-urban-riders-authen.web.app)
 
-### This project is made with reactJS,react-routing and Firebase Authentication.
+### A ride-sharing project where users can pick a rider from anywhere using this website.
 
 ### Some Features are:
-
 - Has firebase authentication
-- Anyone can pick a ride from this web.
+- Users can select their destination
 - Responsive for Mobile Device
 - Has google map navigation
-- User can sign in by google
+- Users can sign in by google
 
-Live Site - [Rider Service Bangladesh](https://react-urban-riders-authen.web.app)
-
-# react-auth-nazmuluzzal
+## Library/Frameworks
+React JS, Firebase, React Router, Bootstrap, React Bootstrap
